@@ -45,4 +45,21 @@
     git branch <<branch name>>
     git checkout <<branch name>>
 
+## push existing repository to github
+
+    git remote add <<identifier>> <<ssh path>>
+    i.e.: git remote add origin github.com:username/repository name.git
+    git branch -M main
+    git push -u origin main
+
+## set url new, if remote url changes
+
+    git remote set-url origin <<ssh path>>
+
+## SSH keys
+
+   ssh-keygen
+   $<<filename>>
+   $<<passphrase>>
+
 
