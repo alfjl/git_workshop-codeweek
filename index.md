@@ -36,4 +36,13 @@
 
     git diff <<filename>>
 
+## display changes on line level
+
+    git blame <<filename>>
+
+## add new branch & switch to branch
+
+    git branch <<branch name>>
+    git checkout <<branch name>>
+
 
