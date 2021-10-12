@@ -9,7 +9,7 @@
     git config --global user.name "name"
     git config --global user.email "email"
 
-## add file
+## stage file
 
     git add *
     git add <<filename>>
@@ -18,4 +18,22 @@
 
     git rm --cached <<filename>>
 
-## 
+## generate new version
+
+    git commit -m "message"
+    i.e.: "Create index.md"
+
+## display repository status
+
+    git status
+
+## display repository history
+
+    git log
+    git log <<filename>>
+
+## display changes between staged and unstaged version of a file
+
+    git diff <<filename>>
+
+
